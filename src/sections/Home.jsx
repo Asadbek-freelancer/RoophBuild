@@ -136,7 +136,7 @@ const Home = () => {
             </button>
             <div className="vector3">
 
-        <img src="../../icons/Vector.svg" alt="" />
+        <img src="/public/icons/Vector.svg" alt="" />
         </div>
         </div>
           
