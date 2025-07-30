@@ -10,10 +10,10 @@ import '../style/registrate.css'
 import Serveces from '../componants/Serveces'
 import OurProjects from '../componants/OurProjects'
 import Boss from '../componants/Boss'
-import Sertificate from '../componants/sertificate'
 import Companys from '../componants/Companys'
 import Questions from '../componants/Questions'
 import Footer from '../componants/Footer'
+import Sertificate from '../componants/Sertificate'
 const Home = () => {
   const works = [
     {name: 'КП «Локис»', image: '../../images/firsthouse.png', area: '280 м²', days: '12 дней' },

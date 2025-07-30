@@ -1,8 +1,9 @@
 import React from 'react'
 import '../style/faq.css'
 import Navbar from '../componants/Navbar'
-import Sertificate from '../componants/sertificate'
+
 import Footer from '../componants/Footer'
+import Sertificate from '../componants/Sertificate'
 const Sertificates = () => {
   return (
     <div>
