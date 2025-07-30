@@ -1,0 +1,30 @@
+@media (width < 429px) {
+    .BALLASTA{
+        padding-inline: 0px;
+    }
+    .BallastaH1{
+        font-size: 30px;
+        width: 380px;
+    }
+    .ballaH2{
+        font-size: 60px;
+    }
+    .ballaP{
+        font-size: 12px;
+    }
+    .ballastaP1{
+        font-size: 12px;
+        width: 330px;
+    }
+    .ballastaP2{
+        font-size: 12px;
+        width: 330px;
+    }
+    .ballastaP{
+        font-size: 12px;
+        width: 340px;
+    }
+    .BallastaH1{
+        margin-top: 40px;
+    }
+}

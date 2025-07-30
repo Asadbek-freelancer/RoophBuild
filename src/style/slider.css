@@ -1,0 +1,7 @@
+@media (width < 429px) {
+    .slider{
+        display: flex;
+        gap: 276px;
+        margin-bottom: -25px;
+    }
+}

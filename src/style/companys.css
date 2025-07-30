@@ -1,0 +1,33 @@
+@media (width < 429px) {
+    .Company{
+        padding-inline: 0px;
+    }
+    .companyH1{
+        font-size: 32px;
+    }
+    .companyPdiv{
+        width: 160px;
+    }
+    .companyP{
+        font-size: 13px;
+
+    }
+    .brandimg{
+        width: 160px;
+    }
+    .brandimg1{
+        width: 150px;
+    }
+    .brandimgDiv5{
+        padding-block: 4px;
+        padding-inline: 17px;
+    }
+    .brandimgDiv6{
+        padding-block: 4px;
+        padding-inline: 30px;
+    }
+    .brandimgDiv3{
+        padding-block: 25px;
+    }
+    
+}

@@ -1,0 +1,114 @@
+.firstH1{
+    color: #11183A;
+    font-family: Inter Display;
+font-weight: 600;
+font-style: Medium;
+font-size: 48px;
+width: 670px;
+}
+
+.workh3{
+    display: none;
+}
+
+.buttondiv4{
+    display: none;
+}
+
+
+.vector3{
+  
+        background-color: white;
+        width: 38px;
+        padding: 15px;
+        border-radius: 10px;
+}
+
+.OurProjects{
+    display: none;
+}
+
+@media (width < 429px) {
+    .homediv{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding-inline: 10px;
+    }
+    .firstH1{
+        font-size: 32px;
+        width: 360px;
+        
+    }
+    .aboutus1{
+        display: flex;
+        gap: 30px;
+    }
+    .firstH2{
+        font-size: 64px;
+    }
+    .spanyear{
+        font-size: 38px;
+        position: relative;
+        bottom: 20px;
+    }
+    .years{
+        font-size: 12px;
+    }
+    .buttondiv4{
+        display: block;
+        left: 0px;
+        display: flex;
+    }
+    .buttondiv2{
+        display: none;
+    }
+    .workh3{
+        display: block;
+         font-weight: 500;
+         margin-bottom: 30px;
+         
+    }
+    .workh2{
+        display: none;
+    }
+    .freeSection{
+        padding-inline: 0px;
+    }
+    .free{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        
+    }
+
+    .freeH1{
+       font-size: 30px;
+        width: 380px;
+    }
+    .freeP{
+        font-size: 12px;
+        width: 350px;
+    }
+    .freeDiv2{
+        width: 380px;
+    }
+    .freeH4{
+        font-size: 12px;
+    }
+    .OurProjects{
+        display: block;
+    }
+    .freeP1{
+        font-size: 13px;
+    }
+    .freeP1Div{
+        width: 160px;
+    }
+    .aboutusP1{
+        font-size: 13px;
+    }
+    .aboutusP1Div{
+        width: 54px;
+    }
+}

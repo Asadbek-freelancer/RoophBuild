@@ -1,0 +1,70 @@
+/* .menu{
+    font-family: Inter Display;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+color: #F3F5FB;
+
+}
+
+.burgermenu{
+    width: 18px;
+}
+
+.menudiv{
+    display: none;
+} */
+
+/* Показывать только в мобильной версии */
+.active-label {
+  display: flex;
+  margin-right: auto;
+  margin-left: 1px;
+}
+
+
+
+.menudiv{
+    background-color: var(--color-gray-400);
+    padding: 14px;
+    border-radius: 15px;
+  
+}
+
+@media (min-width: 768px) {
+  .active-label {
+    display: none;  
+  }  
+
+  .menudiv {
+    display: none;  
+  }  
+
+  .full-nav {
+    display: flex !important;  
+  }  
+ 
+}  
+
+
+
+@media (width < 429px) {
+   .full-nav-mobile{
+    display: flex;
+    gap: 20px;
+  }
+  
+}
+
+
+
+
+
+/* На мобильных весь список скрыт */
+.full-nav {
+  display: none;
+}
+.menu{
+    color: white;
+}
+

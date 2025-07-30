@@ -1,0 +1,53 @@
+
+.btnphone{
+    display: none;
+}
+@media (width < 1150px) {
+    .maindiv{
+        gap: 5px;
+        width: 1050px;
+    }
+    ul{
+        gap: 2px;
+    }
+
+}
+
+.vector{
+    display: none;
+}
+
+@media (width < 1090px) {
+    .firstbtn{
+        display: none;
+    }
+    .btnphone{
+        display: block; 
+       
+    }
+    .maindiv{
+         width: 980px;
+    }
+}
+
+@media (width < 1040px) {
+    
+}
+
+@media (width < 768px) {
+     .maindiv{
+         width: 370px;
+         display: flex;
+         justify-content: center;
+         font-size: 14px;
+    }
+
+    .vector{
+        display: block;
+        background-color: white;
+        width: 38px;
+        padding: 15px;
+        border-radius: 10px;
+    }
+}
+

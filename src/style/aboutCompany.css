@@ -1,0 +1,83 @@
+.AboutComP22{
+    display: none;
+}
+
+@media (width < 429px) {
+    .AboutComP22{
+        display: block;
+        
+    }
+    .ACD{
+        padding-inline: 0px;
+        margin-top: 90px;
+    }
+    .ACD1{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .ACDBrandP{
+        font-size: 12px;
+        width: 335px;
+    }
+    .ABOUTUSRESPon{
+        padding-inline: 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .ABOUUSH1Last{
+        font-size: 30px;
+        width: 360px;
+    }
+    .ACDAdvantages{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .ACDNumber{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .ACDNumP{
+        font-size: 13px;
+    }
+    .AboutCP{
+        font-size: 12px;
+    }
+    .AboutCH2{
+        font-size: 60px;
+        margin-top: 10px;
+    }
+    .AboutComP{
+        font-size: 12px;
+    }
+    .ACDAdvanP{
+        width: 270px;
+    }
+    .ACH1{
+        font-size: 32px;
+        width: 360px;
+    }
+    .ABOUTComPanyCustem{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 80px;
+    }
+    .ACDCards{
+        display: flex;
+        flex-direction: column;
+    }
+    .CardAboutP1{
+        font-size: 12px;
+    }
+    .CardAboutH2{
+        font-size: 16px;
+    }
+    .CardAboutP2{
+        font-size: 12px;
+        margin-top: 26px;
+    }
+}

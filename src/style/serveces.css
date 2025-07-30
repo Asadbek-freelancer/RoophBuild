@@ -1,0 +1,37 @@
+@media (width < 429px) {
+    .servecesMain{
+        padding-inline: 0px;
+        display: none;
+    }
+
+    .servediv{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .servecard{
+        margin-top: 0px;
+    }
+    .ServeH1{
+        font-size: 26px;
+        width: 380px;
+        margin-bottom: 60px;
+    }
+}
+
+.servecesMain2{
+    display: none;
+}
+
+@media (width < 429px) {
+    .servecesMain2{
+    display: block;
+    padding-inline: 0px;
+}
+.servesP2{
+    font-size: 13px;
+}
+.servesDiv2{
+    width: 60px;
+}
+}

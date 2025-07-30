@@ -1,0 +1,65 @@
+.Footer{
+    background: linear-gradient(to top right,rgba(2, 6, 21, 1), rgba(2, 1, 61, 1), rgba(2, 1, 101, 0.9));
+    border-radius: 10px;
+
+}
+
+.vector0{
+      background-color: white;
+        width: 38px;
+        padding: 12px;
+        border-radius: 5px;
+}
+
+.vector9{
+      background-color: white;
+        width: 36px;
+        padding: 12px;
+        border-radius: 5px;
+}
+
+@media (width < 429px) {
+    .Footerdiv{
+        padding-inline: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .footerH1{
+        font-size: 32px;
+        width: 340px;
+    }
+    .footerP2{
+        font-size: 12px;
+        width: 217px;
+    }
+    .footerUL{
+        width: 280px;
+    }
+    .footerDivquestion{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 14px;
+
+    }
+    .footerH2{
+        margin-top: 30px;
+    }
+    .footerinput{
+        margin-top: 0px;
+    }
+    .footerbtn{
+        display: flex;
+        gap: 12px;
+        margin-top: 60px;
+    }
+    .map{
+        width: 330px;
+        height: 120px;
+    }
+    .footerlastP{
+        font-size: 12px;
+    }
+   
+}

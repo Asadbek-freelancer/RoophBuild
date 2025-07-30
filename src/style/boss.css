@@ -1,0 +1,45 @@
+.Boss{
+    background: linear-gradient(to top right,rgba(2, 6, 21, 1), rgba(2, 1, 61, 1), rgba(2, 1, 101, 0.9));
+    border-radius: 10px;
+
+}
+
+@media (width < 429px) {
+    .bossDiv{
+        padding-inline: 30px;
+        padding-block: 20px;
+    }
+    .bossDiv2{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .BossH1{
+        font-size: 32px;
+        width: 300px;
+    }
+    .BossP1{
+        font-size: 12px;
+        margin-top: 30px;
+        width: 320px;
+    }
+    .BossP{
+        font-size: 12px;
+        width: 320px;
+    }
+    .aboutBoss{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        
+    }
+    .imgBoss{
+        margin-top: 0px;
+    }
+    .bossP2{
+        font-size: 13px;
+    }
+    .bossP2Div{
+        width: 100px;
+    }
+}

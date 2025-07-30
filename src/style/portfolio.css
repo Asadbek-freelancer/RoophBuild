@@ -1,0 +1,81 @@
+.PortfolioSecond{
+     background-image: url('../../images/Materialimg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+}
+
+@media (width < 429px) {
+    .PortfolioSecond{
+        background-image: url('../../images/portfoliomobileimg.png');
+    }
+    .PortfolioTWOH2{
+        font-size: 16px;
+    }
+    .PortMainDiv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .PortFolioSecondMain{
+        padding-inline: 0px;
+        margin-top: 30px;
+    }
+    .PortFolioSecondMainDiv{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: baseline;
+    }
+    .imgmobileportfolio{
+        width: 180px;
+    }
+    .imgmobileportfoliodiv{
+        display: flex;
+        gap: 8px;
+        justify-content: center;
+    }
+    .PSecH3{
+        font-size: 16px;
+    }
+    .PSecP{
+        font-size: 32px;
+    }
+    .imgmobileportfolioS{
+        margin-top: 10px;
+    }
+    .PortPall{
+        font-size: 12px;
+    }
+    .PortfolioMAIN{
+        padding-inline: 0px;
+    }
+    .PortfolioMAINDIV{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .PortPFirts{
+        font-size: 13px;
+    }
+    .PortPFirtsDiv{
+        width: 140px;
+    }
+    .MAINPORTCARDS{
+        display: flex;
+        flex-direction: column;
+        align-items: normal;
+    }
+    .sliderimgs{
+        display: none;
+    }
+    .PortfirstH3{
+        font-size: 12px;
+    }
+    .LIPortfolio{
+        font-size: 12px;
+    }
+    .bluenumbers{
+        margin-top: 60px;
+    }
+}

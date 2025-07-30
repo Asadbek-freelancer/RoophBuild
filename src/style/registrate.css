@@ -1,0 +1,52 @@
+.registrate{
+    background: linear-gradient(to top right,rgba(2, 6, 21, 1), rgba(2, 1, 61, 1), rgba(2, 1, 101, 0.9));
+    border-radius: 10px;
+
+}
+
+.vector4{
+     background-color: white;
+        width: 38px;
+        padding: 12px;
+        border-radius: 10px;
+}
+
+
+@media (width < 429px) {
+    .mainregistrate{
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    .regH1{
+        font-size: 32px;
+        width: 300px;
+        margin-top: 30px;
+    }
+    .regP{
+        font-size: 12px;
+        width: 300px;
+        text-align: left;
+    }
+
+    .inputRegis{
+        border: none;
+    }
+    .registrateDiv1{
+        padding-left: 30px;
+        
+    }
+
+    .registrateimg{
+        border-radius: 0px 0px 10px 10px;
+    }
+    .regisP1{
+        font-size: 13px;
+    }
+    .regisP1Div{
+        width: 190px;
+    }
+    
+
+}

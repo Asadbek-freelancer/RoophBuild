@@ -1,0 +1,45 @@
+.FooterContact{
+      background: linear-gradient(to top right,rgba(2, 6, 21, 1), rgba(2, 1, 61, 1), rgba(2, 1, 101, 0.9));
+    border-radius: 10px;
+    padding-block: 50px;
+    padding-left: 490px;
+}
+.mobileContacts{
+    display: none;
+}
+.contactsmobileimg{
+    display: none;
+}
+
+@media (width < 429px) {
+    .mobileContacts{
+        display: block;
+        font-size: 42px;
+    }
+    .mobileH1contacts{
+        display: none;
+    }
+    .contactsmobileimg{
+        display: block;
+        position: absolute;
+        z-index: -1;
+        width: 392px;
+    }
+    .contactH2{
+        font-size: 16px;
+    }
+    .ContactsMain{
+        padding-inline: 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .map2{
+        width: 380px;
+        height: 280px;
+    }
+    .FooterContact{
+        padding-left: 30px;
+        margin-top: 40px;
+    }
+}

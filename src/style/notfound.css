@@ -1,0 +1,29 @@
+.NotFound{
+    background-image: url('../../images/NotFound.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: contain;
+    height: 100vh;
+    margin-bottom: -10px;
+}
+
+@media (Width < 429px) {
+    .NotFound{
+        background-image: url('../../images/imgContacts.png');
+       
+    }
+    .notfoundH1{
+        font-size: 52px;
+    }
+    .buttonNotFLast{
+        display: none;
+    }
+    .notFp{
+        font-size: 24px;
+        width: 300px;
+    }
+    .portseconmobileH1{
+          font-size: 28px;
+    width: 320px;
+    }
+}

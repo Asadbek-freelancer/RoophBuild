@@ -1,0 +1,23 @@
+@media (width < 429px) {
+    .Question{
+        padding-inline: 0px;
+    }
+    .questions{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .questionP{
+        font-size: 12px;
+    }
+    .quesDiv{
+        display: flex;  
+        gap: 10px;
+    }
+    .questionP{
+        font-size: 13px;
+    }
+    .questionDiv2{
+        width: 130px;
+    }
+}

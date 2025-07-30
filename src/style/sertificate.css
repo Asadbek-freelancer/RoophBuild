@@ -1,0 +1,24 @@
+@media (width < 429px) {
+    
+    .Sertificate{
+        padding-inline: 0px;
+    }
+    .sertificateDiv{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .SertificateH1{
+        font-size: 32px;
+        width: 308px;
+    }
+    .sertificateimg{
+        width: 180px;
+    }
+    .sertificateP2{
+        font-size: 13px;
+    }
+    .sertificateDiv2{
+        width: 100px;
+    }
+}

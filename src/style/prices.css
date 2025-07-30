@@ -1,0 +1,26 @@
+.Prices{
+    background-image: url('../../images/Pricesimg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 95vh;
+}
+
+.vectorPrice{
+      background-color: white;
+        width: 33px;
+        padding: 12px;
+        border-radius: 7px;
+}
+
+@media (width < 429px) {
+    .Prices{
+        background-image: url('../../images/mobilePricesimg.png');
+        background-size: contain;
+    }
+    .mobileH1Price{
+        font-size: 44px;
+        margin-top: 34px;
+    }
+    
+}

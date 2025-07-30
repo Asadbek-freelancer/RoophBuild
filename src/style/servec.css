@@ -1,0 +1,21 @@
+.vectorServ{
+     background-color: white;
+        width: 38px;
+        padding: 12px;
+        border-radius:7px;
+}
+
+@media (width < 429px) {
+    .mobileH1Serv{
+        font-size: 48px;
+        margin-top: 34px;
+    }
+    .buttondivSerV{
+        padding-block: 4px;
+        padding-right: 4px;
+        width: 145px;
+    }
+    .SERVE{
+        padding-inline: 0px;
+    }
+}

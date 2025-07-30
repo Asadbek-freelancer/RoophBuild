@@ -1,0 +1,69 @@
+
+@media (width < 429px) {
+    
+    .Coments{
+        padding-inline: 0px;
+    }
+    .commentDiv{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 360px;
+    }
+    .comentsH1{
+        font-size: 28px;
+    }
+    .comentsP{
+        font-size: 12px;
+        width: 309px;
+    }
+    .avatar{
+        width: 20px;
+    }
+    .comentsH3{
+        font-size: 12px;
+        width: 200px;
+    }
+    .cmd1{
+        width: 280px;
+        padding: 12px;
+    }
+    .comentsChat{
+        display: flex;
+        gap: 10px;
+    }
+    .firstcoment{
+        display: flex;
+        gap: 10px;
+        width: 335px;
+    }
+    .comentallimg{
+        display: flex;
+        gap: 4px;
+    }
+    .comentimg{
+        width: 78px;
+    }
+    .time{
+        font-size: 8px;
+    }
+    .lastdivcoment{
+        display: flex;
+        gap: 10px;
+    }
+    .lastcoment{
+        width: 270px;
+        padding: 12px;
+        
+    }
+    .lastH4{
+        font-size: 12px;
+        width: 170px;
+    }
+    .comentP1{
+        font-size: 13px;
+    }
+    .comentsDiv{
+        width: 60px;
+    }
+}

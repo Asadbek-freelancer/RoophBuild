@@ -1,0 +1,36 @@
+.vector2{
+  
+        background-color: white;
+        width: 38px;
+        padding: 15px;
+        border-radius: 10px;
+}
+
+@media (Width < 429px) {
+    .input{
+        display: flex;
+        flex-direction: column;
+        width: 280px;
+        align-items: center;
+        text-align: center;
+    }
+    .btnblue{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        left: 2px;
+       
+    }
+    .buttondiv{
+        width: 250px;
+        margin-bottom: 10px;
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        
+    }
+    .vector2{
+        position: relative;
+        right: -12px;
+    }
+}

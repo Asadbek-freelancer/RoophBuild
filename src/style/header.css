@@ -1,0 +1,144 @@
+.div{
+    background-image: url('../../images/headerPhoto.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 140vh;
+   
+}
+
+.mobileWork{
+    display: none;
+}
+
+@media (width < 430px) {
+    .div{
+        background-image: url('../../images/headermobileimg.png');
+          background-size: cover;
+          height: 155vh;
+    }
+}
+
+.header_h1{
+    font-family: Inter Display;
+font-weight: 500;
+font-style: Medium;
+font-size: 80px;
+width: 860px;
+color: #F3F5FB;
+text-align: center;
+margin-top: 140px;
+}
+
+.headerP{
+    font-family: Inter Display;
+font-weight: 400;
+font-style: Regular;
+font-size: 32px;
+color: #F3F5FB;
+text-align: center;
+margin-top: 40px;
+}
+
+.secondP{
+    font-family: Inter Display;
+font-weight: 500;
+font-style: Medium;
+font-size: 24px;
+color: #F3F5FB;
+margin-top: 20px;
+}
+
+.card{
+    backdrop-filter: blur(100px);
+    border-radius: 10px;
+    margin-top: 143px;
+}
+
+@media (width < 1000px) {
+    .card{
+        width: 300px;
+    }
+}
+ .workh2{
+       
+        font-weight: 500
+    }
+
+@media (width < 429px) {
+    .header_h1{
+        font-size: 48px;
+        width: 364px;
+        
+    }
+    .headerP{
+        font-size: 24px;
+        margin-top: 30px;
+    }
+    .secondP{
+        font-size: 16px;
+        width: 210px;
+        text-align: center;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 100px;
+        gap: 10px;
+    }
+    .card{
+        margin-top: 0px;
+      
+        width: 350px;
+        padding-block: 17px;
+        
+    }
+    .cardP{
+        font-size: 12px;
+    }
+    .cardIcon{
+        width: 20px;
+    }
+    .ourProj{
+        padding-inline: 0px;
+    }
+    .mobileWork{
+        display: flex;
+        gap: 15px;
+        
+        
+    }
+    .workP{
+        color: #4560E9;
+        font-size: 16px;
+        opacity: 70%;
+    }
+    .area{
+        color: #4560E9;
+        font-family: Inter Display;
+font-weight: 500;
+font-style: Medium;
+font-size: 32px;
+    }
+    .workh2{
+        margin-top: 28px;
+        font-weight: 500
+    }
+    .allourprojects{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        
+    }
+    .ourprojects{
+ font-size: 24px;
+ width: 380px;
+    }
+    .ourpP{
+        font-size: 12px;
+    }
+
+    
+
+}

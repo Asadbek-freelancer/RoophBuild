@@ -1,0 +1,42 @@
+.Material{
+     background-image: url('../../images/Materialimg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+}
+
+@media (width < 429px) {
+   .Material{
+    background-image: url('../../images/mobileMatierial.png');
+   }
+   .materialH2{
+    font-size: 16px;
+   }
+   .MaterialMainDIV{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   .MaterialH1{
+    font-size: 44px;
+    width: 380px;
+   }
+   .MaterDivCards{
+    padding-inline: 0px;
+    margin-top: 60px;
+   }
+   .MaterialDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+   }
+   .MateH2{
+    font-size: 26px;
+    width: 380px;
+   }
+   .imgsCard{
+    display: flex;
+    justify-content: center;
+   }
+}
